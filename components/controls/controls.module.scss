@@ -1,0 +1,58 @@
+.container {
+  text-align: center;
+}
+
+.connected {
+  color: green;
+}
+
+.disconnected {
+  color: red;
+}
+
+.pose {
+  margin: 1rem;
+}
+
+.pose strong {
+  font-weight: bold;
+  display: block;
+}
+
+.online_icon
+{
+  width: 25px;
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.offline_icon
+{
+  width: 17px;
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+}
+
+
+.newpose_form
+{
+  text-align: left;
+  width: 100%;
+  margin-top: 50px;
+
+  label
+  {
+    width: 100px;
+  }
+
+  input
+  {
+    width: 100%;
+    display: block;
+    margin: 5px auto 10px;
+  }
+}

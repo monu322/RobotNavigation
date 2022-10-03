@@ -1,0 +1,15 @@
+.ui_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.controls
+{
+    background: #fff;
+    padding: 30px;
+}
